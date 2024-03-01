@@ -8,14 +8,21 @@ body, html {
     /* L'altezza rispetto alla viewport */
     height: 100vh; 
 
-    /* Immagine di sfondo */
-    background-image: url('https://variety.com/wp-content/uploads/2013/03/ironman31.jpg');
-
+    
     /* Fissa lo sfondo rispetto alla viewport */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.parallax1.sabi {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGBjpsUApFFGEWUwL6hqm0V8uLnFZhaxthI12Za_4lX3oz4anGYYOPJTPIzxZOHTnvcfw&usqp=CAU');
+}
+
+.parallax1.lore {
+  /* Immagine di sfondo */
+  background-image: url('https://variety.com/wp-content/uploads/2013/03/ironman31.jpg');
 }
 
 .content {
@@ -33,13 +40,20 @@ body, html {
 .parallax2 {
     height: 100vh; 
 
-    /* Immagine di sfondo */
-    background-image: url('https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/07/resident-evil-stars-vs-nemesis.jpg');
     /* Fissa lo sfondo rispetto alla viewport */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.parallax2.sabi {
+  background-image: url('https://repository-images.githubusercontent.com/597349313/15198b79-92d2-460a-a587-62cba023cb41');
+}
+
+.parallax2.lore {
+  /* Immagine di sfondo */
+  background-image: url('https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/07/resident-evil-stars-vs-nemesis.jpg');
 }
 
 /*css della card*/
@@ -93,4 +107,8 @@ body, html {
   .flex-item {
     margin: 10px; /* Spazio tra gli elementi flex */
     padding: 20px; /* Spazio interno agli elementi flex */
+  }
+
+  .navbar {
+    position: absolute;
   }
