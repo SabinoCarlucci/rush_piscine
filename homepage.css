@@ -1,0 +1,38 @@
+.homepage {
+	background-image: url('homepage.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: auto;
+	height: 100%;
+	font-family: ‘Alegreya Sans SC’;
+}
+
+h1, h5 {
+	color: transparent;
+	font-size: 3.5rem;
+	font-weight: bolder;
+	text-shadow: 1px 1px 2px black;
+}
+
+span {
+	background-color: white;
+	
+	font-size: 1.5rem;
+	font-weight: bolder;
+	text-shadow: 1px 1px 2px black;
+}
+
+a:link { 
+	text-decoration: none; 
+  } 
+  a:visited { 
+	text-decoration: none; 
+  } 
+  a:hover { 
+	text-decoration: none; 
+  } 
+  a:active { 
+	text-decoration: none; 
+  }
