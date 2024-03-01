@@ -11,28 +11,52 @@
 
 h1, h5 {
 	color: transparent;
+	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: white;
 	font-size: 3.5rem;
 	font-weight: bolder;
-	text-shadow: 1px 1px 2px black;
+	/*text-shadow: 1px 1px 2px black;*/
 }
 
-span {
-	background-color: white;
-	
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.name {
 	font-size: 1.5rem;
 	font-weight: bolder;
-	text-shadow: 1px 1px 2px black;
+	padding: 5px 10px;
+	border-radius: 15%;
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
 }
 
+a {
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
+}
+
+a, a:hover { 
+	text-decoration: none;
+	color: transparent;
+}
 a:link { 
 	text-decoration: none; 
-  } 
+} 
   a:visited { 
 	text-decoration: none; 
-  } 
-  a:hover { 
-	text-decoration: none; 
-  } 
+} 
   a:active { 
 	text-decoration: none; 
-  }
+}
