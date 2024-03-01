@@ -1,0 +1,96 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.parallax1 {
+    /* L'altezza rispetto alla viewport */
+    height: 100vh; 
+
+    /* Immagine di sfondo */
+    background-image: url('https://variety.com/wp-content/uploads/2013/03/ironman31.jpg');
+
+    /* Fissa lo sfondo rispetto alla viewport */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.6); /* Sfondo semi-trasparente per vedere lo sfondo sotto */
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.parallax2 {
+    height: 100vh; 
+
+    /* Immagine di sfondo */
+    background-image: url('https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/07/resident-evil-stars-vs-nemesis.jpg');
+    /* Fissa lo sfondo rispetto alla viewport */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*css della card*/
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .title {
+    color: rgb(116, 115, 115);
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(243, 243, 243);
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: column; /* Imposta gli elementi in verticale */
+    justify-content: center; /* Allinea verticalmente */
+    align-items: center; /* Centra orizzontalmente gli elementi nel contenitore */
+    height: 100vh; /* Imposta l'altezza del container a tutto lo schermo, ad esempio */
+    
+  flex-direction: column;
+  gap: 20px; /* Distanza tra gli elementi flex */
+  }
+  
+  .flex-item {
+    margin: 10px; /* Spazio tra gli elementi flex */
+    padding: 20px; /* Spazio interno agli elementi flex */
+  }
